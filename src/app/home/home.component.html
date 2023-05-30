@@ -1,0 +1,55 @@
+<div class="container">
+    <div class="row justify-content-center align-items-center">
+        <div class="col text-center">
+            <button class="form-control btn btn-dark mt-2 fs-4 " routerLink="/manhwa/add" style="width: 200px; height: 50px;">Add to List <i class="fa-solid fa-plus fa-beat"></i></button>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            
+            <p class="fs-4 mt-5 text-center">Introducing our new website, designed specifically for manhwa enthusiasts. 
+                With our user-friendly interface, you can easily add your favorite manhwa titles to your personal library. 
+                Explore a vast collection of manhwa and enjoy the ability to rank them based on your preference. 
+                Keep track of your progress as you dive into each series by conveniently adding the number of chapters you've read. 
+                Enhance your manhwa reading experience with our platform, where organizing, ranking, and tracking your favorite titles has never been easier.
+            </p>
+        
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-6 text-center" style="display: flex;">
+            <input type="text" class="form-control bg-dark text-light mt-2" placeholder="Search Manhwa" (keyup)="search($event)" style="width: 300px; height: 50px; margin-left: 170px;">
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row mt-5">
+        <div class="col-4" *ngFor="let manhwa of allManhwas | filter:searchKey:'manhwaname'">
+            <div class="card" style="width: 18rem; margin-bottom: 100px; margin-right: 20px; height: 650px;">
+                <img [src]="manhwa.photo" width="100%" height="400px" class="card-img-top" alt="Solo Leveling"/>
+                <div class="card-body">
+                  <h5 class="card-title text-center">{{manhwa.manhwaname}}</h5>
+                </div>
+                <ul class="list-group list-group-light list-group-small">
+                  <li class="list-group-item px-4">Rank: {{manhwa.rank}}</li>
+                  <li class="list-group-item px-4">Total no of Chapters: {{manhwa.totalnoofchapters}}</li>
+                  <li class="list-group-item px-4 text-center text-danger">Completed: {{manhwa.completed}}</li>
+                  <li class="list-group-item px-4">  <a routerLink="/manhwa/view/{{manhwa.id}}"><i class="fa-solid fa-eye" style="margin-left: -15px;">View</i></a>
+                              <a routerLink="/manhwa/update/{{manhwa.id}}"><i class="fa-regular fa-pen-to-square text-warning" style="margin-left: 10px;">Update</i></a>
+                              <a (click)="deleteManhwa(manhwa.id)"><i class="fa-solid fa-trash text-danger" style="margin-left: 10px;">Delete</i></a>
+                </li>
+
+                </ul>
+              </div>
+        </div>
+    </div>
+</div>

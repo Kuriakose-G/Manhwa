@@ -1,0 +1,38 @@
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <h1 class="text-center mt-4">View Your Manhwa</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <p class="fs-4 mt-5 text-center">
+                On our user-friendly page, you can easily view all the details you've entered about your favorite manhwa. 
+                From the captivating storyline to the intricate character development, immerse yourself in the world you've curated. 
+                Dive into a comprehensive view of the manhwa, exploring your personalized notes, rankings, and even the number of chapters you've read, all conveniently displayed in one place for a truly enriching experience.
+            </p>
+        </div>
+    </div>
+
+    <div class="row mt-4">
+        <div class="col-6">
+            <ul class="list-group">
+                <li class="list-group-item bg-dark" aria-current="true"></li>
+
+                <li class="list-group-item">Rank: {{manhwa?.rank}}</li>
+                <li class="list-group-item">Manhwa Name: {{manhwa?.manhwaname}}</li>
+                <li class="list-group-item">Total no of Chapters: {{manhwa.totalnoofchapters}}</li>
+                <li class="list-group-item">Completed (yes/no): {{manhwa.completed}}</li>
+                <li class="list-group-item">Rating (?/10): {{manhwa.rating}}</li>
+                <li class="list-group-item">Genre: {{genreName}}</li>
+            </ul>
+            <button routerLink="/manhwa/Home" class="form-control btn btn-danger mt-5 fs-5" style="width: 100px; height: 40px;">Go Back</button>
+
+        </div>
+        <div class="col-6">
+            <img [src]="manhwa.photo" alt="" style="height: 400px; width: 300px;margin-left: 160px;">
+            <p class="text-center mt-4 fs-3" style="text-decoration: underline;">Description</p>
+            <p class="mt-3">{{manhwa.description}}</p>
+        </div>
+    </div>
+</div>

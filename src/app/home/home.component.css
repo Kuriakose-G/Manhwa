@@ -1,0 +1,11 @@
+.card:hover{
+    box-shadow: 6px 6px 6px 6px rgba(88, 85, 85, 0.425);
+}
+
+a{
+    cursor: pointer;
+}
+input::placeholder{
+    color: white;
+    opacity: 30%;
+}

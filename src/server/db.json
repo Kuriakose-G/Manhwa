@@ -1,0 +1,128 @@
+{
+  "manhwas": [
+    {
+      "id": "m1",
+      "rank": "1",
+      "manhwaname": "Solo Leveling",
+      "description": "10 years ago, after “the Gate” that connected the real world with the monster world opened, some of the ordinary, everyday people received the power to hunt monsters within the Gate. They are known as “Hunters”. However, not all Hunters are powerful. My name is Sung Jin-Woo, an E-rank Hunter. I’m someone who has to risk his life in the lowliest of dungeons, the “World’s Weakest”. Having no skills whatsoever to display, I barely earned the required money by fighting in low-leveled dungeons… at least until I found a hidden dungeon with the hardest difficulty within the D-rank dungeons! In the end, as I was accepting death, I suddenly received a strange power, a quest log that only I could see, a secret to leveling up that only I know about! If I trained in accordance with my quests and hunted monsters, my level would rise. Changing from the weakest Hunter to the strongest S-rank Hunter!",
+      "photo": "https://altraverse.de/media/image/c2/98/a5/solo-leveling-03-cover.jpg",
+      "totalnoofchapters": "191",
+      "completed": "Yes",
+      "rating": "9.9",
+      "genreId": "2"
+    },
+    {
+      "id": "m2",
+      "rank": "2",
+      "manhwaname": "The Beginning After The End",
+      "description": " King Grey has unrivaled strength, wealth, and prestige in a world governed by martial ability. However, solitude lingers closely behind those with great power. Beneath the glamorous exterior of a powerful king lurks the shell of man, devoid of purpose and will.Reincarnated into a new world filled with magic and monsters, the king has a second chance to relive his life. Correcting the mistakes of his past will not be his only challenge, however. Underneath the peace and prosperity of the new world is an undercurrent threatening to destroy everything he has worked for, questioning his role and reason for being born again.",
+      "photo": "https://brewingwriter.com/wp-content/uploads/2021/08/BATE.jpeg",
+      "totalnoofchapters": "175",
+      "completed": "No",
+      "rating": "9.5",
+      "genreId": "1"
+    },
+    {
+      "id": "m3",
+      "rank": "3",
+      "manhwaname": "Magic Emperor",
+      "description": "Zhuo Yifan was a magic emperor or could be called a demon emperor because he had an ancient emperor’s book called the Book of the Nine Secrets, he was targeted by all the experts and he was even betrayed and killed by his students. Then his soul enters and comes back to life in a family servant boy named Zhuo Fan. Because some demonic magic is holding him back, he must unite the child’s memories and cannot ignore the family and the mistress he serves. How can he lead this descending family back to the pinnacle of this continent!",
+      "photo": "https://w0.peakpx.com/wallpaper/929/449/HD-wallpaper-magic-emperor-magia.jpg",
+      "totalnoofchapters": "398",
+      "completed": "No",
+      "rating": "9.3",
+      "genreId": "3"
+    },
+    {
+      "id": "m4",
+      "rank": "4",
+      "manhwaname": "Murim Login",
+      "description": "An era where hunters thrive on hunting monsters that come from Gates. Jin Tae-Kyung is a low-rank hunter who picks up a VR machine, and accidentally logs into the game, which is set in the world of Martial Arts. After many ups and downs, Tae-Kyung is able to escape this world. The strength and skills, which he received in the Murim were able to be carried over back to the real world. This allows him to continue making a living a hunter… but he decides to return back to the world of Murim, out of care for his NPC friends.",
+      "photo": "https://th.bing.com/th/id/OIP.rHG2F1Af36ElvmyFizscEAHaJ_?pid=ImgDet&rs=1",
+      "totalnoofchapters": "153",
+      "completed": "No",
+      "rating": "9",
+      "genreId": "2"
+    },
+    {
+      "id": "m5",
+      "rank": "5",
+      "manhwaname": "survival story of a sword king in a fantasy world",
+      "description": "Ryu Han-Bin was a normal person who just had been discharged from his mandatory military service, when he was transported to another world. Left to fend for himself, he has given tthe goal of surviving and growing stronger in a desolute world riddled with monsters. The problem is the ‘Guideline’ that was supposed to be his guiding system to survive is filled with errors",
+      "photo": "https://vignette.wikia.nocookie.net/survival-story-of-a-sword-king-in-a-fantasy-world/images/a/a0/Aeric.jpg/revision/latest/top-crop/width/360/height/450?cb=20200128230341",
+      "totalnoofchapters": "169",
+      "completed": "No",
+      "rating": "8.7",
+      "genreId": "1"
+    },
+    {
+      "id": "m6",
+      "rank": "6",
+      "manhwaname": "Leveling with the Gods",
+      "description": "In a world plagued by the destructive Outer Gods, oneman named Kim YuWon rises to the challenge. Armed with the power to manipulate time, he embarks on a journey to rewrite history. With his determination unyielding, Kim YuWon gathers his comrades and leads the fight against the all-powerful Outer Gods. Can he defy the odds and emerge victorious in this ultimate battle for humanity's survival? Leveling Up With the Gods is a thrilling tale of resilience and the pursuit of victory against overwhelming forces.",
+      "photo": "https://levelingwithgods.com/wp-content/uploads/2021/12/Manga-Covers-1-1.png",
+      "totalnoofchapters": "79",
+      "completed": "No",
+      "rating": "8.9",
+      "genreId": "2"
+    },
+    {
+      "id": "m7",
+      "rank": "7",
+      "manhwaname": "mercenary enrollment",
+      "description": "Yu Ijin was the sole survivor of a plane crash when he was little. After becoming a mercenary to survive for 10 years, he returns to his family in his hometown",
+      "photo": "https://th.bing.com/th/id/OIP.tyQy8gA6G_Uq0Q5L8wdkzAHaMo?pid=ImgDet&rs=1",
+      "totalnoofchapters": "137",
+      "completed": "No",
+      "rating": "9",
+      "genreId": "2"
+    },
+    {
+      "id": "m8",
+      "rank": "8",
+      "manhwaname": "SSS Class Sucide Hunter",
+      "description": "I want an S-Rank skill too! I want it so badly, I could die for it! [You have awakened an S-Rank skill.] [But it only works when you die.] HUH!? WHAT’S THE POINT OF GETTING ONE IF I DIE!?",
+      "photo": "https://th.bing.com/th/id/OIP.zZTdn-dN5d-7RUEoyvOThAHaLQ?pid=ImgDet&rs=1",
+      "totalnoofchapters": "80",
+      "completed": "No",
+      "rating": "8.9",
+      "genreId": "1"
+    },
+    {
+      "id": "m9",
+      "rank": "9",
+      "manhwaname": "I Obtained a Mythic Item",
+      "description": "Yggdrasil, the World Tree of Norse Mythology, suddenly appeared on Earth. And with it came demonic creatures that ravaged entire cities. Although not all hope is lost, due to the System that a few special humans had gained. In this new world where only the strong survived, Min JaeHyun scrapes by regretting the wrong choices he’d made in the past… when one day, he gains the only Mythic item in the world. How will this item help him? And can he change his wretched fate?",
+      "photo": "https://th.bing.com/th/id/OIP.20TiYdctLDFLHvY1Iy0s9QHaKu?pid=ImgDet&rs=1",
+      "totalnoofchapters": "55",
+      "completed": "No",
+      "rating": "8.8",
+      "genreId": "2"
+    },
+    {
+      "id": "m10",
+      "rank": "10",
+      "manhwaname": "Player Who Returned 10,000 Years Later",
+      "description": "One day, out of the blue, he falls into hell. All he has with him is his desire to live and predatory powers. From the thousandth hell to the nine thousandth, he‘s devoured tens and hundreds of thousands of demons, and even the seven archdukes bowed down to him. “Why do you wish to go back? Your Highness already has everything in hell.“ “Everything, my ass.“ There’s nothing to eat or enjoy here! Hell’s nothing but desolate land full of terrible demons! “I will return.“ After ten thousand long years, he finally returns to Earth.",
+      "photo": "https://th.bing.com/th/id/OIP.uVmJas1Pa4GUMjFYJw6OEQHaKm?pid=ImgDet&rs=1",
+      "totalnoofchapters": "59",
+      "completed": "No",
+      "rating": "8.6",
+      "genreId": "2"
+    }
+  ],
+  "genres": [
+    {
+      "id": "1",
+      "name": "Fantasy"
+    },
+    {
+      "id": "2",
+      "name": "Action"
+    },
+    {
+      "id": "3",
+      "name": "Cultivation"
+    }
+  ]
+}

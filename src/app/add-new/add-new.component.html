@@ -1,0 +1,66 @@
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <h1 class="text-center mt-4">Add Your New Manhwa</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <p class="fs-4 mt-5 text-center">
+                Are you ready to embark on a thrilling new manhwa adventure? Look no further! With our new website, adding a new manhwa to your collection is a breeze. 
+                Simply navigate to the search bar, discover exciting titles, and with just a few clicks, watch as your library expands with captivating stories waiting to be explored. 
+                Unleash your imagination and uncover hidden gems as you dive into the rich world of manhwa. 
+                Don't miss out on the opportunity to discover your next favorite series and elevate your manhwa reading experience with us.
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-6">
+            <form class="border border-2 border-secondary p-3 rounded mt-4">
+              <div class="form-floating mb-2">
+                <input [(ngModel)]="manhwa.id" name="manhwaid" type="text" class="form-control"  placeholder="Rank">
+                <label>ID</label>
+              </div>
+                <div class="form-floating mb-2">
+                    <input [(ngModel)]="manhwa.rank" name="manhwarank" type="text" class="form-control"  placeholder="Rank">
+                    <label>Rank</label>
+                  </div>
+                  <div class="form-floating mb-2">
+                    <input [(ngModel)]="manhwa.manhwaname" name="manhwaname" type="text" class="form-control"  placeholder="Manhwa Name">
+                    <label>Manhwa Name</label>
+                  </div>
+                  <div class="form-floating mb-2">
+                    <input [(ngModel)]="manhwa.description" name="description" type="text" class="form-control"  placeholder="Description">
+                    <label>Description</label>
+                  </div>
+                  <div class="form-floating mb-2">
+                    <input [(ngModel)]="manhwa.photo" name="photo" type="text" class="form-control"  placeholder="URL">
+                    <label>Photo URL</label>
+                  </div>
+                  <div class="form-floating mb-2">
+                    <input [(ngModel)]="manhwa.totalnoofchapters" name="totalchapters" type="text" class="form-control"  placeholder="Number">
+                    <label>Total no of Chapters</label>
+                  </div>
+                  <div class="form-floating mb-2">
+                    <input [(ngModel)]="manhwa.completed" name="completed" type="text" class="form-control"  placeholder="email">
+                    <label>Completed (yes/no)</label>
+                  </div>
+                  <div class="form-floating mb-2">
+                    <input [(ngModel)]="manhwa.rating" name="rating" type="text" class="form-control"  placeholder="Rating">
+                    <label>Rating (?/10)</label>
+                  </div>
+                  <div class="form-floating mb-3">
+                    <select [(ngModel)]="manhwa.genreId" name="genreId" class="form-control">
+                        <option selected hidden disabled>{{manhwa.genreId}}</option>
+                       <option [value]="genre.id" *ngFor="let genre of allgenres">{{genre.name}}</option>
+                    </select>
+                  </div>
+                  <button (click)="addManhwa()" class="form-control btn btn-dark mt-2 fs-5"  style="width: 100px; height: 40px;">Add <i class="fa-solid fa-plus fa-beat"></i></button>
+                  <button routerLink="/manhwa/Home" class="mt-2 fs-5 btn btn-danger" style="float: right; width: 100px; height: 40px;">Close</button>
+
+            </form>
+        <div class="col-6">
+            <img [src]="manhwa.photo" alt="" style="width: 400px; margin-left: 800px; margin-top: -590px; height: 550px; ">
+        </div>
+    </div>
+</div>
